@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fivesquare.koda.fivesquare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/fiveslogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.SignupActivity"
+            android:label="@string/title_activity_SignUp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.TasteActivity"
+            android:label=" Choose tastes "
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.MyProfileActivity"
+            android:label=" your profile "
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.MyTastesActivity" />
+        <activity
+            android:name=".Activities.MyPlacesActivity"
+            android:label="@string/title_activity_my_places" />
+        <activity
+            android:name=".Activities.RestorePassActivity"
+            android:label="@string/title_activity_restore_pass" />
+        <activity
+            android:name=".Activities.PlaceActivity"
+            android:label="@string/title_activity_place" />
+        <activity android:name=".Activities.CheckinActivity"></activity>
+    </application>
+
+</manifest>

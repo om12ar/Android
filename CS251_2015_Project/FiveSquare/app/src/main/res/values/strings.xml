@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FiveSquare</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">FiveSquare</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_SignUp">Create a new account </string>
+    <string name="title_activity_my_places">MyPlacesActivity</string>
+    <string name="title_activity_restore_pass">restorePassActivity</string>
+    <string name="title_activity_place">PlaceActivity</string>
+</resources>

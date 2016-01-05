@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             default:
 
-             System.err.println("BREAK DEFULT");
+                System.err.println("BREAK DEFULT");
                 break;
 
         }
@@ -135,4 +135,3 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 }
-
